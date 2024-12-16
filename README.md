@@ -65,14 +65,6 @@ docker build -t taxonomic-analysis:latest .
 
 
 ### 3. Run the Analysis
-```bash
-docker run --rm \
-    -v "$(pwd)/../data:/data" \
-    taxonomic-analysis:latest \
-    --input /data/raw/taxonomic_data.csv \
-    --output_dir /data/output
-```
-
 
 ```bash
 chmod +x ./app/code/run.sh 
