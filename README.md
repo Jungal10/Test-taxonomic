@@ -4,6 +4,8 @@
 This repository contains a Python script to analyze taxonomic data, compute summary statistics, and generate visualizations. The application is containerized using Docker for easy deployment and reproducibility.
 
 ## Project Structure
+
+```plaintext
 .
 ├── README.md
 └── app
@@ -29,6 +31,7 @@ This repository contains a Python script to analyze taxonomic data, compute summ
     └── docs
         ├── README.md
         └── Test_Prepaire.pdf
+```
 
 ### code
 Code Snippets and docker configuration file
