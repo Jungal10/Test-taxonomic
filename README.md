@@ -1,7 +1,7 @@
 
 # Taxonomic Data Analysis
 
-This repository contains a Python script to analyze taxonomic data, compute summary statistics, and generate visualizations. The application is containerized using Docker for easy deployment and reproducibility.
+This repository contains a Python script containerized using Docker to briefly analyze taxonomic data.
 
 ## Project Structure
 
