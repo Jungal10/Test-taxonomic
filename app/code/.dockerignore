@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.git
+*.env
+*.DS_Store
+data/
+docs/
+README.md
+Dockerfile
