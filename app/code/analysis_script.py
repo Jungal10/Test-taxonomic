@@ -73,10 +73,10 @@ def plot_bar_chart(summary_df, output_dir):
         y='phylum',
         data=summary_df,
         palette=palette,
-        edgecolor='black'  # Adds a border to each bar for clarity
+        edgecolor='black' 
     )
 
-    # Set titles and labels with enhanced font sizes and weights
+    # Set titles and labels
     plt.title('Total Species Count per Phylum', fontsize=16, weight='bold')
     plt.xlabel('Total Species Count', fontsize=14)
     plt.ylabel('Phylum', fontsize=14)
@@ -84,14 +84,14 @@ def plot_bar_chart(summary_df, output_dir):
     # Add data labels to each bar for precise information
     for index, value in enumerate(summary_df['total_count']):
         plt.text(
-            value + max(summary_df['total_count']) * 0.01,  # Slightly offset to the right
+            value + max(summary_df['total_count']) * 0.01,  
             index,
             str(value),
             va='center',
             fontsize=12
         )
 
-    # Rotate y-axis labels if needed (optional based on phylum names)
+    # Rotate y-axis labels if needed
     plt.yticks(fontsize=12)
 
     # Adjust layout for better spacing and fit
@@ -106,7 +106,7 @@ def plot_bar_chart(summary_df, output_dir):
 def main():
     parser = argparse.ArgumentParser(description="Analyze taxonomic data.")
     parser.add_argument('--input', required=True, help="Path to input CSV file (e.g., data/taxonomic_data.csv)")
-    parser.add_argument('--output_dir', default='data', help="Path to output directory")
+    parser.add_argument('--output_dir', default='data', help="Path to output directory: data")
     args = parser.parse_args()
 
     # Define directories for intermediate and final outputs
