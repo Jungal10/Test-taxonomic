@@ -33,14 +33,6 @@ This repository contains a Python script containerized using Docker to briefly a
         └── Test_Prepaire.pdf
 ```
 
-### code
-Code Snippets and docker configuration file
-
-### data
-raw, intermediate and output data
-
-### docs
-Notebooks and further necessary documentation.
 
 
 ## Prerequisites

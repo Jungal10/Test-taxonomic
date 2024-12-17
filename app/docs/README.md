@@ -1,17 +1,8 @@
-#  Here you should exaplin the content of each files onside the folder
+### code
+Code Snippets and docker configuration file
 
-## TemplateNotebook.Rmd
-Rmarkdown file genearated and used by Rstudio
+### data
+raw, intermediate and output data
 
-## TemplateNotebook.md
-Markdown file readable by Github so it can be visualized online
-
-It will generatei a folder with the necessary files to render this visualization (\<filename\_files/)
-
-### TemplateNotebook\_files/
-Folder with the necessary files for Github visualization
-
-
-
-
-
+### docs
+Notebooks and further necessary documentation.
