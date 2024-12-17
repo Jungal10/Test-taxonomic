@@ -2,5 +2,14 @@
 
 ## Files:
 
-- pipleine.sh
-From raw files, does the preprocessig to generate a certain output
+- `analysis_script.py`
+functions for create the analysis from the input to the output file
+
+- `Dockerfile`
+Docker config file
+
+- `requirements.txt`
+modules necessary to run the pipeline
+
+- `run.sh`
+executor

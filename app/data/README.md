@@ -1,5 +1,7 @@
 # data
 
+## raw
+input files/tables
 
 ## intermediate
 
